@@ -86,7 +86,7 @@ const Navbar = () => {
 						<p className='line mt-2 px-4 pb-4 text-[15px] leading-4'>Секундочку, гружусь...</p>
 					)}
 				</div>
-				<ul className='flex gap-1 overflow-scroll bg-white text-base text-gray-400'>
+				<ul className='flex gap-1 overflow-scroll bg-white px-4 text-base text-gray-400'>
 					{Object.keys(departments).map((dep, i) => (
 						<li
 							key={i}
